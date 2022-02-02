@@ -100,7 +100,7 @@ var sentence8 = `For the US and the rest of the world, ${proveSyn[Math.floor(Mat
     var caEmails = commonAppEmails.join(",")
  
    var emailLetter2 = encodeURIComponent(fullLetter2.replace("Florida Senators"))
-   var emailLink2=`mailto:?bcc=${caEmails}&subject=Vote Against Bill SB 1834 and HB 1557&body=${emailLetter2}`
+   var emailLink2=`mailto:?bcc=${caEmails}&subject=Vote+Against+Bill+SB+1834+and+HB+1557&body=${emailLetter2}`
   $('#commonAppEmails').attr("href", emailLink2) 
   
 })
