@@ -13,7 +13,7 @@ color: #75DAE6;
 }
 
 h1{
-  padding-top:20px;
+  padding-top:60px;
   color: #75DAE6;
   font-size: 50px;
   text-shadow:
@@ -21,6 +21,8 @@ h1{
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
+  padding-bottom: 30px;
+  width: auto;
 }
 h4{  
  position: relative;
@@ -30,6 +32,7 @@ bottom: 80px;
   padding: 22px;
   padding-bottom: 10px;
   font-size: 20px;
+  width: auto;
   
 }
 
@@ -39,7 +42,7 @@ bottom: 80px;
   color: white;
   position: relative;
 bottom: 50px;
-
+width: auto;
   
 }
 
@@ -48,7 +51,7 @@ a {
   font-size: 30px;
   color: white;
   text-decoration: none;
-  
+  width: auto;
 }
 /* mouse over link */
 a:hover {
@@ -59,12 +62,12 @@ body {
   
   text-align: center;
   background-color: #E68E81;
-
+width: auto;
 }
 
 button{
 padding: 10px 44px;
   border: 3px solid #75DAE6; /* blooo */
 border-radius: 15px;
-
+width: auto;
 }
