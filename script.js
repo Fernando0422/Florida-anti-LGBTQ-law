@@ -98,8 +98,9 @@ var sentence8 = `For the US and the rest of the world, ${proveSyn[Math.floor(Mat
     var commonAppEmails = [
     "governorron.desantis@eog.myflorida.com", "Joe.Harding@myfloridahouse.gov", "baxley.dennis.web@flsenate.gov","albritton.ben.web@flsenate.gov", "boyd.jim.web@flsenate.gov", "bradley.jennifer.web@flsenate.gov", "brandes.jeff.web@flsenate.gov", "brodeur.jason.web@flsenate.gov", "broxson.doug.web@flsenate.gov", "burgess.danny.web@flsenate.gov", "diaz.manny.web@flsenate.gov","gainer.george.web@flsenate.gov","garcia.ileana.web@flsenate.gov","gruters.joe.web@flsenate.gov","Harrell.Gayle.web@flsenate.gov","Hooper.Ed.web@flsenate.gov","hutson.travis.web@flsenate.gov","mayfield.debbie.web@flsenate.gov","passidomo.kathleen.web@flsenate.gov","perry.keith.web@flsenate.gov","rodrigues.ray.web@flsenate.gov","rodriguez.anamaria.web@flsenate.gov","simpson.wilton.web@flsenate.gov","stargel.kelli.web@flsenate.gov","wright.tom.web@flsenate.gov"]
     var caEmails = commonAppEmails.join(",")
-  var emailLetter2 = encodeURIComponent(fullLetter2.replace("The College Board", "The Common Application"))
-  var emailLink2=`mailto:?bcc=${caEmails}&subject=stop+asian&body=${emailLetter2}`
+ 
+   var emailLetter2 = encodeURIComponent(fullLetter2.replace("The College Board", "The Common Application"))
+   var emailLink2=`mailto:?bcc=${caEmails}&subject=Vote Against Bill SB 1834 and HB 1557&body=${emailLetter2}`
   $('#commonAppEmails').attr("href", emailLink2) 
   
 })
